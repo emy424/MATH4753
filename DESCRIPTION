@@ -1,0 +1,11 @@
+Package: MATH4753
+Type: Package
+Title: Introductory Package
+Version: 0.1.0
+Author: Emily Lu
+Maintainer: Emily Lu <emily.lu@ou.edu>
+Description: This is a test package used for math 4753 stat class
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
