@@ -1,5 +1,4 @@
-
-dird="C:\\Users\\Emily\\Documents\\STAT\\LAB\\LAB4\\"
+dird="C:\\Users\\Emily\\Documents\\STAT\\MATH4753\\"
 #' File Reading Function
 #'
 #'Takes a CSV file, read in the data
