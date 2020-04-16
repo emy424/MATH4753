@@ -7,20 +7,20 @@
 myNorm(x, mu, sig, ...)
 }
 \arguments{
-\item{x}{the mean}
+\item{x}{the sample vector}
 
-\item{mu}{the standard deviation}
+\item{mu}{the mean}
 
-\item{sig}{more parameters can be read in}
+\item{sig}{the standard deviation}
 
-\item{...}{}
+\item{...}{more parameters can be read in}
 }
 \value{
 a contour graph,
 and the vector, the coordinates and mle is asked for
 }
 \description{
-the sample vector
+A function that takes in a vector of samples, the mean and standard deviation and simulates a contour graph
 }
 \examples{
 myNorm(x = c(10,12,13,15,12,11,10), mu = seq(8, 16, length = 1000), sig = seq(0.1, 4, length = 1000), lwd = 2, labcex = 1)

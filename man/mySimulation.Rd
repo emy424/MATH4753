@@ -7,17 +7,17 @@
 mySimulation(iter = 100, n = 10, p = 0.7)
 }
 \arguments{
-\item{iter}{number of size}
+\item{iter}{number of time for iteration}
 
-\item{n}{probability}
+\item{n}{number of size}
 
-\item{p}{}
+\item{p}{probability}
 }
 \value{
 A table along with a barplot of the simulation
 }
 \description{
-number of time for iteration
+A function that takes in the n and p value, enter the number of iter of desire, and it will simulate a binomial distribution and plots
 }
 \examples{
 iter = 10,000, n = 5, p = 0.5 mybin(iter, n, p)

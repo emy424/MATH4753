@@ -1,18 +1,20 @@
 #' CLT Poisson
 #'
-#'number of sample
+#' A function that takes in the number of sample, iteration and lambda, and simulates a Poisson histogram and plot
 #' @param n
+#' number of sample
 #'
-#' number of iterations
 #' @param iter
+#' number of iterations
 #'
-#' number of lambda
 #' @param lambda
+#' number of lambda
 #'
-#' any other parameters that may be added
 #' @param ...
+#' any other parameters that may be added
 #'
-#' @return three graphs including probability, density and rel. frequency
+#' @return
+#' three graphs including probability, density and rel. frequency
 #' @export
 #'
 #' @examples

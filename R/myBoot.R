@@ -1,17 +1,18 @@
 #' Bootstrap interval for a two sample test
 #'
-#' The first sample vector
+#' A function that takes in two sets of data and a number of other parameters to produce a boostrap interval
 #' @param x1
-#' The second sample vector
+#' The first sample vector
 #' @param x2
-#' The confidence interval
+#' The second sample vector
 #' @param conf.level
-#' Number of iterations
+#' The confidence interval
 #' @param iter
-#' The differences of the mean
+#' Number of iterations
 #' @param mudiff
-#' Test regions
+#' The differences of the mean
 #' @param test
+#' Test regions
 #'
 #' @return
 #' A histogram and the P-value

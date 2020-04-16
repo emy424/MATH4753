@@ -1,7 +1,8 @@
 #' 95% confidence interval generating function
 #'
-#' a vector of samplings
+#' A function that will take in a vector of samples and return a 95% confidence interval for the given data
 #' @param x
+#'a vector of samplings
 #'
 #' @return
 #' confidence interval for the given vector

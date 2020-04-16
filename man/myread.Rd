@@ -7,7 +7,7 @@
 myread(csv)
 }
 \arguments{
-\item{csv}{}
+\item{csv}{Name of the data file}
 }
 \value{
 the data read in from the csv file

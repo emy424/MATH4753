@@ -7,19 +7,19 @@
 mycltp(n, iter, lambda = 10, ...)
 }
 \arguments{
-\item{n}{number of iterations}
+\item{n}{number of sample}
 
-\item{iter}{number of lambda}
+\item{iter}{number of iterations}
 
-\item{lambda}{any other parameters that may be added}
+\item{lambda}{number of lambda}
 
-\item{...}{}
+\item{...}{any other parameters that may be added}
 }
 \value{
 three graphs including probability, density and rel. frequency
 }
 \description{
-number of sample
+A function that takes in the number of sample, iteration and lambda, and simulates a Poisson histogram and plot
 }
 \examples{
 mycltp(100,10000,10)

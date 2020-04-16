@@ -1,7 +1,8 @@
 #' Square function
 #'
-#'Takes a vector and returns a vector of squared components
+#' Takes a vector and returns a vector of squared components
 #' @param x
+#' a vector of numbers
 #'
 #' @return a vector of squared components in the form of vector
 #' @export

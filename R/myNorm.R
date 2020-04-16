@@ -1,13 +1,15 @@
 #' Normal Experiment
 #'
-#' the sample vector
+#' A function that takes in a vector of samples, the mean and standard deviation and simulates a contour graph
+#'
 #' @param x
-#' the mean
+#' the sample vector
 #' @param mu
-#' the standard deviation
+#' the mean
 #' @param sig
-#' more parameters can be read in
+#' the standard deviation
 #' @param ...
+#' more parameters can be read in
 #'
 #' @return
 #' a contour graph,

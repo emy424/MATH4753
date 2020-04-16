@@ -1,13 +1,14 @@
 #' Binomial simulation plotting function
 #'
-#' number of time for iteration
+#' A function that takes in the n and p value, enter the number of iter of desire, and it will simulate a binomial distribution and plots
 #' @param iter
+#' number of time for iteration
 #'
-#' number of size
 #' @param n
+#' number of size
 #'
-#' probability
 #' @param p
+#' probability
 #'
 #' @return A table along with a barplot of the simulation
 #' @export

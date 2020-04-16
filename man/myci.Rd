@@ -7,13 +7,13 @@
 myci(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{a vector of samplings}
 }
 \value{
 confidence interval for the given vector
 }
 \description{
-a vector of samplings
+A function that will take in a vector of samples and return a 95% confidence interval for the given data
 }
 \examples{
 x = rnorm(30, mean = 10, sd = 12)

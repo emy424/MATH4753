@@ -7,24 +7,26 @@
 myBoot2(iter = 10000, x, fun = "var", alpha = 0.2, cx = 1.5, ...)
 }
 \arguments{
-\item{iter}{size of the sample}
+\item{iter}{number of iterations}
 
-\item{x}{name of the function}
+\item{x}{size of the sample}
 
-\item{fun}{1 - % , number of alpha}
+\item{fun}{name of the function}
 
-\item{alpha}{size of the wording}
+\item{alpha}{1 - % , number of alpha}
 
-\item{cx}{more parameters avaliable}
+\item{cx}{size of the wording}
 
-\item{...}{return list of data if wanted
+\item{...}{more parameters avaliable
+
+return list of data if wanted
 returns a barplot by default}
 }
 \value{
 
 }
 \description{
-number of iterations
+A function that takes in a number of paramters and simulates a bootstrap barplot
 }
 \examples{
 myBoot2(iter = 10000, x = 20, fun = "mean", alpha = 0.05, cx = 1)

@@ -7,7 +7,7 @@
 myf(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{a vector of numbers}
 }
 \value{
 a vector of squared components in the form of vector

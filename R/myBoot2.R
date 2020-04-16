@@ -1,17 +1,19 @@
 #' BootStrap Function
 #'
-#' number of iterations
+#' A function that takes in a number of paramters and simulates a bootstrap barplot
+#'
 #' @param iter
-#' size of the sample
+#' number of iterations
 #' @param x
-#' name of the function
+#' size of the sample
 #' @param fun
-#' 1 - % , number of alpha
+#' name of the function
 #' @param alpha
-#' size of the wording
+#' 1 - % , number of alpha
 #' @param cx
-#' more parameters avaliable
+#' size of the wording
 #' @param ...
+#' more parameters avaliable
 #'
 #' return list of data if wanted
 #' returns a barplot by default

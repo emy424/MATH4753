@@ -7,23 +7,23 @@
 boot2pval(x1, x2, conf.level = 0.95, iter = 3000, mudiff = 0, test = "two")
 }
 \arguments{
-\item{x1}{The second sample vector}
+\item{x1}{The first sample vector}
 
-\item{x2}{The confidence interval}
+\item{x2}{The second sample vector}
 
-\item{conf.level}{Number of iterations}
+\item{conf.level}{The confidence interval}
 
-\item{iter}{The differences of the mean}
+\item{iter}{Number of iterations}
 
-\item{mudiff}{Test regions}
+\item{mudiff}{The differences of the mean}
 
-\item{test}{}
+\item{test}{Test regions}
 }
 \value{
 A histogram and the P-value
 }
 \description{
-The first sample vector
+A function that takes in two sets of data and a number of other parameters to produce a boostrap interval
 }
 \examples{
 x = rnorm(30, mean = 10, sd = 12)
