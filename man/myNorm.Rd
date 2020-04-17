@@ -4,7 +4,12 @@
 \alias{myNorm}
 \title{Normal Experiment}
 \usage{
-myNorm(x, mu, sig, ...)
+myNorm(
+  x,
+  mu = seq(8, 16, length = 1000),
+  sig = seq(0.1, 4, length = 1000),
+  ...
+)
 }
 \arguments{
 \item{x}{the sample vector}

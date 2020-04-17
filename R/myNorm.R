@@ -19,7 +19,7 @@
 #'
 #' @examples
 #' myNorm(x = c(10,12,13,15,12,11,10), mu = seq(8, 16, length = 1000), sig = seq(0.1, 4, length = 1000), lwd = 2, labcex = 1)
-myNorm=function(x,mu,sig,...){  #x sample vector
+myNorm=function(x,mu = seq(8,16,length = 1000), sig = seq(0.1, 4, length = 1000),...){  #x sample vector
   nmu=length(mu) # number of values in mu
   nsig=length(sig)
   n=length(x) # sample size
